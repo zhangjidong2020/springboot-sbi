@@ -9,6 +9,10 @@ spring:
     url: jdbc:mysql://localhost:3306/day01
     username: root
     password: 123456
+
+# mybatis 别名扫描
+mybatis:
+  type-aliases-package: cn.hp.pojo
 #连接池
 #spring:
 #  datasource:
